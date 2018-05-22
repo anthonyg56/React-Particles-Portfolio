@@ -1,0 +1,43 @@
+.profile-wrapper{
+
+	.wrapper{
+		h1{
+			font-family: $main-font;
+			font-size: 4.5em;
+			
+
+					.red{
+						color: red;
+					}
+
+					.blue{
+						color: blue;
+					}
+		}
+		p{
+			font-family: $aux-font;
+			font-size: 1.75em;
+		}
+		.form-wrapper{
+
+			.wrapper{
+				h1{
+					
+				}
+				margin: 75px auto;
+				input[name="name"], input[name="Email"]{
+					margin: 15px 8px 8px 8px;
+					width: 229px;
+				}
+				input[name="txt"]{
+					width: 475px;
+					height: 150px;
+				}
+				input[type="text"]{
+					background-color: transparent;
+					border: solid 1px black
+				}
+			}
+		}
+	}
+}

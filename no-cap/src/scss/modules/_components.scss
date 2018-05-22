@@ -1,0 +1,43 @@
+.icon{
+	i{
+		font-size:48px;
+		color: black;
+	}
+}
+
+//Projects
+.project-wrapper{
+	h1{
+		font-family: $main-font;
+		font-size: 4.5em;
+		letter-spacing: 2px;
+		display: inline-block;
+		padding-bottom: 17px;
+		border-bottom: 1px solid black;
+		width: 335px;
+	}
+	#projects{
+		margin: 100px auto;
+		img{
+			box-shadow: -5px 6px 5px gray;
+		}
+		h2{
+			margin: 30px auto 10px auto;
+			padding-bottom: 10px;
+			font-family: $main-font;
+			font-size: 2.85em;
+			border-bottom: 1px solid black;
+			border-bottom-width: thin;
+			display: inline-block;
+			width: 450px;
+		}
+		p{
+			font-family: $aux-font;
+			font-size: 1.75em;
+		}
+	}
+}
+
+//particles
+
+

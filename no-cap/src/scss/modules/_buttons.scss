@@ -1,0 +1,50 @@
+//Header Button
+.header{
+	button{
+		background-color: black;
+		color: white;
+		border-radius: 10px;
+		border-color: black;
+		padding: 7px 15px;
+		box-shadow: -3px 2px 5px gray;
+		font-family: $aux-font;
+		font-size: 1.45em;
+		margin-top: 14px;
+		letter-spacing: 1px;
+		font-weight: 600;
+	}
+}
+
+//Project Buttons
+.project-link{
+	text-decoration: none;
+	background-color: black;
+	border-color: black;
+
+	button{
+		background-color: black;
+		color: white;
+		border-radius: 10px;
+		border-color: black;
+		padding: 7px 15px;
+		box-shadow: -4px 5px 7px black;
+		font-family: $aux-font;
+		font-size: 1.45em;
+		margin-top: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+//Form submit Button
+button[type="submit"]{
+	background-color: black;
+		color: white;
+		border-radius: 10px;
+		border-color: black;
+		padding: 7px 15px;
+		box-shadow: -4px 5px 7px black;
+		font-family: $aux-font;
+		font-size: 1.45em;
+		margin-top: 14px;
+		letter-spacing: 1px;
+}

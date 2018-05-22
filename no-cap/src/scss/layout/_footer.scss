@@ -1,0 +1,26 @@
+.footer-wrapper{
+	margin: 50px auto;
+	.wrapper{
+		h2{
+			font-family: $main-font;
+			display: inline-block;
+			font-size: 3em;
+		}
+
+		ul{
+			display: inline-block;
+			float: right;
+			margin: 0;
+			padding-top: 25px;
+			li{
+				display: inline-block;
+				margin: 0 5px;
+				a{
+					font-family: $aux-font;
+					font-size: 1.5em;
+				}
+			}
+
+		}
+	}
+}

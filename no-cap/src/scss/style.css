@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.header-wrapper {
+  height: 100vh;
+  display: table;
+  top: 0; }
+  .header-wrapper .header {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    padding-bottom: 0; }
+    .header-wrapper .header h1, .header-wrapper .header h3 {
+      text-align: left; }
+    .header-wrapper .header h1 {
+      font-family: "Righteous";
+      font-size: 4em;
+      letter-spacing: 4px; }
+    .header-wrapper .header h3 {
+      font-family: "Numans";
+      font-size: 2.25em;
+      font-weight: 500; }
+
+.profile-wrapper .wrapper h1 {
+  font-family: "Righteous";
+  font-size: 4.5em; }
+  .profile-wrapper .wrapper h1 .red {
+    color: red; }
+  .profile-wrapper .wrapper h1 .blue {
+    color: blue; }
+
+.profile-wrapper .wrapper p {
+  font-family: "Numans";
+  font-size: 1.75em; }
+
+.profile-wrapper .wrapper .form-wrapper .wrapper {
+  margin: 75px auto; }
+  .profile-wrapper .wrapper .form-wrapper .wrapper input[name="name"], .profile-wrapper .wrapper .form-wrapper .wrapper input[name="Email"] {
+    margin: 15px 8px 8px 8px;
+    width: 229px; }
+  .profile-wrapper .wrapper .form-wrapper .wrapper input[name="txt"] {
+    width: 475px;
+    height: 150px; }
+  .profile-wrapper .wrapper .form-wrapper .wrapper input[type="text"] {
+    background-color: transparent;
+    border: solid 1px black; }
+
+.navbar-inverse {
+  background-color: white !important;
+  border: none !important;
+  box-shadow: 0px 3px 5px gray; }
+  .navbar-inverse .navbar-header h1 {
+    font-family: "Righteous"; }
+  .navbar-inverse .collapse .navbar-nav {
+    float: right;
+    padding-top: 11px; }
+    .navbar-inverse .collapse .navbar-nav li a {
+      font-family: "Numans";
+      font-size: 1.75em; }
+
+.footer-wrapper {
+  margin: 50px auto; }
+  .footer-wrapper .wrapper h2 {
+    font-family: "Righteous";
+    display: inline-block;
+    font-size: 3em; }
+  .footer-wrapper .wrapper ul {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding-top: 25px; }
+    .footer-wrapper .wrapper ul li {
+      display: inline-block;
+      margin: 0 5px; }
+      .footer-wrapper .wrapper ul li a {
+        font-family: "Numans";
+        font-size: 1.5em; }
+
+.header button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-color: black;
+  padding: 7px 15px;
+  box-shadow: -3px 2px 5px gray;
+  font-family: "Numans";
+  font-size: 1.45em;
+  margin-top: 14px;
+  letter-spacing: 1px;
+  font-weight: 600; }
+
+.project-link {
+  text-decoration: none;
+  background-color: black;
+  border-color: black; }
+  .project-link button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    padding: 7px 15px;
+    box-shadow: -4px 5px 7px black;
+    font-family: "Numans";
+    font-size: 1.45em;
+    margin-top: 14px;
+    letter-spacing: 1px; }
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-color: black;
+  padding: 7px 15px;
+  box-shadow: -4px 5px 7px black;
+  font-family: "Numans";
+  font-size: 1.45em;
+  margin-top: 14px;
+  letter-spacing: 1px; }
+
+.icon i {
+  font-size: 48px;
+  color: black; }
+
+.project-wrapper h1 {
+  font-family: "Righteous";
+  font-size: 4.5em;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding-bottom: 17px;
+  border-bottom: 1px solid black;
+  width: 335px; }
+
+.project-wrapper #projects {
+  margin: 100px auto; }
+  .project-wrapper #projects img {
+    box-shadow: -5px 6px 5px gray; }
+  .project-wrapper #projects h2 {
+    margin: 30px auto 10px auto;
+    padding-bottom: 10px;
+    font-family: "Righteous";
+    font-size: 2.85em;
+    border-bottom: 1px solid black;
+    border-bottom-width: thin;
+    display: inline-block;
+    width: 450px; }
+  .project-wrapper #projects p {
+    font-family: "Numans";
+    font-size: 1.75em; }

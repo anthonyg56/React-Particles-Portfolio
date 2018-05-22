@@ -1,0 +1,25 @@
+.navbar-inverse{
+	background-color: white!important;
+	border: none!important;
+	box-shadow: 0px 3px 5px gray;
+	.navbar-header{
+		h1{
+			font-family: $main-font;
+		}
+	}
+
+	.collapse{
+	
+		.navbar-nav{
+			float: right;
+			padding-top: 11px;
+			li{
+
+				a{
+					font-family: $aux-font;
+					font-size: 1.75em;
+				}
+			}
+		}
+	}
+}
